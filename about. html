@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About Me</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">MyPortfolio</a>
+    <div class="navbar-nav">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link active" href="about.html">About</a>
+      <a class="nav-link" href="gallery.html">Gallery</a>
+      <a class="nav-link" href="contact.html">Contact</a>
+    </div>
+  </div>
+</nav>
+<div class="container my-5">
+  <h2>About Me</h2>
+  <p>l am kiconco joan a student at Bugema university. </p>
+  <P>I am a  year one student offering Bcs i applied data scince and artificial intelligence</P>
+
+  <h3>Education</h3>
+  <table class="table table-bordered">
+    <tr><th>University</th><td> Bugema University</td></tr>
+    <tr><th>Course</th><td>Data science and Artificial intelligence</td></tr>
+    <tr><th>Year</th><td>Year one</td></tr>
+  </table>
+
+  <h3>Skills</h3>
+  <p>HTML - 80%</p>
+  <div class="progress mb-2"><div class="progress-bar" style="width: 50%">50%</div></div>
+  
+  <p>bootstrap - 80%</p>
+  <div class="progress mb-2"><div class="progress-bar bg-success" style="width: 70%">70%</div></div>
+
+  <h3>Hobbies</h3>
+  <ul>
+    <li>researching new topics</li>
+    <li>watching</li>
+  </ul>
+</div>
+
+
+<footer class="bg-dark text-white text-center py-3 mt-5">
+  <p>© 2026 MyPortfolio - kiconco joan</p>
+</footer>
+
+</body>
+</html>
